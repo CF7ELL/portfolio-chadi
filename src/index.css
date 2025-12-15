@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-shadow-grey: oklch(0.2403 0.0289 278.12);
+  --color-rich-cerulean: oklch(0.5579 0.0849 240.94);
+  --color-parchement: oklch(0.9518 0.0054 95.1);
+  --color-saga-green: oklch(0.6136 0.1336 131.07);
+  --color-orange: oklch(0.787 0.1654 74.34);
+}
+
+body {
+  @apply m-0 text-shadow-grey scroll-smooth;
+  font-family: -apple-system, "Inter", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.shadow-outline {
+  text-shadow: #000 0px 0px 5px;
+  -webkit-font-smoothing: antialiased;
+}
