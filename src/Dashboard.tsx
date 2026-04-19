@@ -6,20 +6,20 @@ import ImageMasonry from './components/ImageMasonry';
 import Section from './components/Section';
 
 const artworks = [
-    '/images/DigitalArt/Goblin Alchemist - Rendered Colors.jpg',
-    '/images/DigitalArt/Jester Ginny Di.jpg',
-    '/images/DigitalArt/jojo pose colour.jpg',
-    '/images/DigitalArt/Mighty Nein.jpg',
-    '/images/DigitalArt/Pirate Woman.jpg',
-    '/images/DigitalArt/Profile.jpg',
-    '/images/DigitalArt/Sunset Med.jpg',
-    '/images/DigitalArt/Vex\'ahlia color.png',
-    '/images/DigitalArt/Bleeding Naga.jpg',
-    '/images/DigitalArt/Gargoyle.jpg',
+    'images/DigitalArt/Goblin Alchemist - Rendered Colors.jpg',
+    'images/DigitalArt/Jester Ginny Di.jpg',
+    'images/DigitalArt/jojo pose colour.jpg',
+    'images/DigitalArt/Mighty Nein.jpg',
+    'images/DigitalArt/Pirate Woman.jpg',
+    'images/DigitalArt/Profile.jpg',
+    'images/DigitalArt/Sunset Med.jpg',
+    'images/DigitalArt/Vex\'ahlia color.png',
+    'images/DigitalArt/Bleeding Naga.jpg',
+    'images/DigitalArt/Gargoyle.jpg',
 ]
 
 // const designs = [
-//     '/images/ClubsAndEvents/ImPress20  - FB Cover.jpg',
+//     'images/ClubsAndEvents/ImPress20  - FB Cover.jpg',
 // ]
 
 const examplePhrases = [
@@ -92,7 +92,7 @@ export default function Dashboard() {
                     className='w-full lg:w-fit  h-150 lg:h-full absolute -bottom-20 lg:-bottom-56 -right-32 lg:right-64 z-10 scale-150 lg:scale-125'
                 >
                   <motion.img
-                      src='/Profile.png'
+                      src='Profile.png'
                       alt='chadi'
                       className='w-full h-full object-cover object-bottom drop-shadow-lg drop-shadow-orange/10'
                   />
