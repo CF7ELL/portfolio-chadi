@@ -18,7 +18,7 @@ export default function Header() {
   return (<>
     <header className={`p-4 flex items-center justify-between transition-all duration-300 ease-in ${isOnTop ? 'bg-transparent text-white text-shadow-lg' : 'bg-parchement/80 text-shadow-grey'} ${isOnTop ? '' : 'shadow-lg'} sticky top-0 z-999 h-20 -mb-20`}>
       <button className="ml-4 text-3xl font-semibold flex items-center gap-3" onClick={() => window?.scrollTo({ top: 0, behavior: 'smooth' })}>
-        <img src='/Logo.png' className='w-10 h-10 inline drop-shadow-lg drop-shadow-shadow-grey/50' alt='Logo'/>
+        <img src='Logo.png' className='w-10 h-10 inline drop-shadow-lg drop-shadow-shadow-grey/50' alt='Logo'/>
         <span><b>Chadi</b> Fendri</span>
       </button>
       <NavigationMenu/>
