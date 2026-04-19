@@ -28,6 +28,7 @@ const examplePhrases = [
     "an avid Graphic Designer",
     "a hobbiest Digital Painter",
     "a TTRPG enthousiast",
+    "シャディです",
 ]
 
 export default function Dashboard() {
@@ -83,7 +84,7 @@ export default function Dashboard() {
                 >
                     <h1 className='text-4xl lg:text-8xl font-black text-parchement text-shadow-lg'>Welcome!</h1>
                     <h3 className='text-3xl lg:text-7xl font-light text-rich-cerulean'>I'm <b className='font-bold'>Chadi</b></h3>
-                    <Typewriter className='text-xl lg:text-4xl font-light ' phrases={examplePhrases} keyPrefix='dashboard' prefix="I'm"/>
+                    <Typewriter className='text-xl lg:text-4xl font-light ' phrases={examplePhrases} keyPrefix='dashboard'/>
                 </motion.div>
                 <motion.div
                     id='chadi-img'
